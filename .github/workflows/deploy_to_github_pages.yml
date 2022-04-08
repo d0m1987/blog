@@ -1,0 +1,32 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - content 
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+
+    - name: Update theme in git submodule
+      run: git submodule update --init --recursive
+    
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: 'latest'
+    
+    - name: Build
+      run: hugo --minify
+
+    - name: Deploy 🚀
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+      with:
+        ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH: publish_on_github_pages
+        FOLDER: public
