@@ -27,5 +27,6 @@ jobs:
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
+        ACCESS_TOKEN: ${{ secrets.GH_TOKEN }}
         BRANCH: publish_on_github_pages
         FOLDER: public
