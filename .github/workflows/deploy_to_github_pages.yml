@@ -13,8 +13,8 @@ jobs:
     steps:
     - uses: actions/checkout@v1
 
-    - name: Update theme in git submodule
-      run: git submodule update --init --recursive
+    - name: Add theme in git submodule
+      run: git submodule add https://github.com/chipzoller/hugo-clarity themes/hugo-clarity
     
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
