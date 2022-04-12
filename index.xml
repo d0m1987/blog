@@ -2,7 +2,7 @@
 VS Code - Custom window title You know for sure the window title in VS Code, i.e. the text at the very top of your VS Code window.
 But did you know that (like most in VS Code) you can modify it such that it suits your working style best?
 Just go to the .json settings (MacOS Shortcut: Cmd + ;) and add the key-value-pair &amp;quot;window.title&amp;quot;: &amp;quot;&amp;lt;your prefered title&amp;gt;&amp;quot;
-This is my setting:</description></item><item><title>Github Pages and Hugo 📝</title><link>https://d0m1987.github.io/blog/post/github_pages_and_hugo/</link><pubDate>Sat, 09 Apr 2022 00:00:00 +0000</pubDate><guid>https://d0m1987.github.io/blog/post/github_pages_and_hugo/</guid><description>
+This is the default setting.</description></item><item><title>Github Pages and Hugo 📝</title><link>https://d0m1987.github.io/blog/post/github_pages_and_hugo/</link><pubDate>Sat, 09 Apr 2022 00:00:00 +0000</pubDate><guid>https://d0m1987.github.io/blog/post/github_pages_and_hugo/</guid><description>
 Warning This post is in active development and constantly changing.
 Why this article? I was researching which static site generator (SSG) to use when I'm starting my blog. There were a lot of possibilities, e.g. Jekyll that is directly promoted through Github.
 Nevertheless, I chose Hugo. Some of the reasons for Hugo were...

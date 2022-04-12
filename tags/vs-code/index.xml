@@ -2,4 +2,4 @@
 VS Code - Custom window title You know for sure the window title in VS Code, i.e. the text at the very top of your VS Code window.
 But did you know that (like most in VS Code) you can modify it such that it suits your working style best?
 Just go to the .json settings (MacOS Shortcut: Cmd + ;) and add the key-value-pair &amp;quot;window.title&amp;quot;: &amp;quot;&amp;lt;your prefered title&amp;gt;&amp;quot;
-This is my setting:</description></item></channel></rss>
+This is the default setting.</description></item></channel></rss>
