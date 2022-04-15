@@ -4,6 +4,7 @@ title: Key Combiner - No need for your mouse anymore ❌🖱️
 date: 2022-04-15
 series: ["60 second gists"]
 tags: 
+    - tools
 usePageBundles: true
 ---
 
