@@ -1,7 +1,7 @@
 ---
 author: Dominic Buehler
 title: Rectangle - Control your windows on MacOS with the ⌨️
-date: 2022-05-10
+date: 2022-05-09
 series: ["60 second gists"]
 tags: 
     - tools
